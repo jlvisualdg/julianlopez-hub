@@ -1,0 +1,15 @@
+{
+  "redirects": [],
+  "pages": [
+    "/",
+    "/timeline",
+    "/frameworks",
+    "/books",
+    "/media",
+    "/expertise",
+    "/online-presence",
+    "/faq"
+  ],
+  "retired": [],
+  "version": 1
+}
