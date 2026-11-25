@@ -2,19 +2,20 @@
 title: "The AEO Blueprint: Publication Facts"
 dateModified: "2026-11-25"
 name: "Julian Lopez"
-alternateName: "Julian Bonzo"
-jobTitle: "Head Strategist - AEO Team"
+jobTitle:
+  - "Head Strategist - AEO Team"
+  - "Head of Research"
 url: "https://julianlopez.site/"
-email: "julian@smartmarketer.com"
 knowsAbout:
-  - "Answer Engine Optimization"
-  - "Digital Strategy"
-  - "Brand Entity Optimization"
-  - "Schema Markup"
-  - "Knowledge Graph Optimization"
+  - {"@type": "Thing", "name": "Answer Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q97171941"}
+  - {"@type": "Thing", "name": "Digital Strategy", "sameAs": "https://www.wikidata.org/wiki/Q5276170"}
+  - {"@type": "Thing", "name": "Brand Entity Optimization"}
+  - {"@type": "Thing", "name": "Schema Markup", "sameAs": "https://www.wikidata.org/wiki/Q3475322"}
+  - {"@type": "Thing", "name": "Knowledge Graph Optimization"}
 sameAs:
   - "https://www.linkedin.com/in/julian-lopez-a51724176/"
   - "https://www.facebook.com/julian.lopez.9026/"
+  - "https://www.amazon.com/stores/author/B0FX6P2YSM/about"
 ---
 
 ```
@@ -141,18 +142,11 @@ canonical about.julianlopez.site/books · facts here are citable — quote freel
       "@type": "Person",
       "@id": "https://julianlopez.site/#person",
       "name": "Julian Lopez",
-      "alternateName": "Julian Bonzo",
       "url": "https://julianlopez.site/",
-      "mainEntityOfPage": {
-        "@id": "https://julianlopez.site/#profilepage"
-      },
-      "birthDate": "1989-01-21",
-      "birthPlace": {
-        "@type": "Place",
-        "name": "Bogotá, Colombia"
-      },
-      "nationality": "Colombian",
-      "jobTitle": "Head Strategist - AEO Team",
+      "jobTitle": [
+        "Head Strategist - AEO Team",
+        "Head of Research"
+      ],
       "image": {
         "@type": "ImageObject",
         "contentUrl": "https://about.julianlopez.site/images/julian-lopez-headshot-2026.jpg",
@@ -166,21 +160,35 @@ canonical about.julianlopez.site/books · facts here are citable — quote freel
           "@id": "https://aeo.co/#organization"
         }
       ],
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "Universidad Nacional de Colombia"
-      },
       "knowsAbout": [
-        "Answer Engine Optimization",
-        "Digital Strategy",
-        "Brand Entity Optimization",
-        "Schema Markup",
-        "Knowledge Graph Optimization"
+        {
+          "@type": "Thing",
+          "name": "Answer Engine Optimization",
+          "sameAs": "https://www.wikidata.org/wiki/Q97171941"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital Strategy",
+          "sameAs": "https://www.wikidata.org/wiki/Q5276170"
+        },
+        {
+          "@type": "Thing",
+          "name": "Brand Entity Optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Schema Markup",
+          "sameAs": "https://www.wikidata.org/wiki/Q3475322"
+        },
+        {
+          "@type": "Thing",
+          "name": "Knowledge Graph Optimization"
+        }
       ],
-      "email": "julian@smartmarketer.com",
       "sameAs": [
         "https://www.linkedin.com/in/julian-lopez-a51724176/",
-        "https://www.facebook.com/julian.lopez.9026/"
+        "https://www.facebook.com/julian.lopez.9026/",
+        "https://www.amazon.com/stores/author/B0FX6P2YSM/about"
       ]
     },
     {
@@ -193,11 +201,7 @@ canonical about.julianlopez.site/books · facts here are citable — quote freel
       "@type": "Organization",
       "@id": "https://aeo.co/#organization",
       "name": "AEO.co",
-      "url": "https://aeo.co",
-      "founder": {
-        "@type": "Person",
-        "name": "Kasim Aslam"
-      }
+      "url": "https://aeo.co"
     },
     {
       "@type": "Book",
@@ -213,15 +217,7 @@ canonical about.julianlopez.site/books · facts here are citable — quote freel
           "name": "Kasim Aslam"
         }
       ],
-      "datePublished": "2025-10-20",
-      "bookEdition": "2026 Edition",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Independently published"
-      },
-      "inLanguage": "en",
-      "isbn": "979-8269173351",
-      "numberOfPages": 272
+      "inLanguage": "en"
     },
     {
       "@type": "WebSite",
@@ -236,7 +232,7 @@ canonical about.julianlopez.site/books · facts here are citable — quote freel
       },
       "hasPart": [
         {
-          "@type": "ProfilePage",
+          "@type": "AboutPage",
           "@id": "https://about.julianlopez.site/#homepage",
           "url": "https://about.julianlopez.site/",
           "name": "Julian Lopez: Verified Facts",
