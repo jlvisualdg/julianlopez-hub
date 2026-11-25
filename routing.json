@@ -1,5 +1,30 @@
 {
-  "redirects": [],
+  "redirects": [
+    {
+      "from": "/book",
+      "to": "/books"
+    },
+    {
+      "from": "/the-aeo-blueprint",
+      "to": "/books"
+    },
+    {
+      "from": "/books/the-aeo-blueprint",
+      "to": "/books"
+    },
+    {
+      "from": "/about",
+      "to": "/"
+    },
+    {
+      "from": "/media-speaking",
+      "to": "/media"
+    },
+    {
+      "from": "/contact",
+      "to": "/online-presence"
+    }
+  ],
   "pages": [
     "/",
     "/timeline",
@@ -10,6 +35,11 @@
     "/online-presence",
     "/faq"
   ],
-  "retired": [],
+  "retired": [
+    "/blog",
+    "/blog/what-nobody-tells-you-about-getting-your-brand-into-ai-answers",
+    "/blog/why-traffic-fell-while-rankings-held",
+    "/community"
+  ],
   "version": 1
 }
