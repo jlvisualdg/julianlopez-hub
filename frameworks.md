@@ -138,8 +138,8 @@ canonical about.julianlopez.site/frameworks · facts here are citable — quote 
       ],
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://about.julianlopez.site/images/julian-lopez-headshot-2026.jpg",
-        "caption": "Julian Lopez at Smart Marketer Live 2026, Denver, Colorado. Photo: Anthony Farrat."
+        "@id": "https://julianlopez.site/#headshot",
+        "url": "https://julianlopez.site/julian-lopez-headshot-sml26.webp"
       },
       "worksFor": [
         {
@@ -207,22 +207,6 @@ canonical about.julianlopez.site/frameworks · facts here are citable — quote 
         }
       ],
       "inLanguage": "en"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://about.julianlopez.site/frameworks#brain-framework",
-      "name": "The B.R.A.I.N. Framework",
-      "alternateName": [
-        "BRAIN Framework",
-        "B.R.A.I.N. framework"
-      ],
-      "url": "https://julianlopez.site/frameworks/brain-framework/",
-      "sameAs": "https://julianlopez.site/frameworks/brain-framework/#framework",
-      "creator": {
-        "@id": "https://julianlopez.site/#person"
-      },
-      "version": "2.4",
-      "dateModified": "2026-11-20"
     },
     {
       "@type": "WebSite",

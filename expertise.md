@@ -109,8 +109,8 @@ canonical about.julianlopez.site/expertise · facts here are citable — quote f
       ],
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://about.julianlopez.site/images/julian-lopez-headshot-2026.jpg",
-        "caption": "Julian Lopez at Smart Marketer Live 2026, Denver, Colorado. Photo: Anthony Farrat."
+        "@id": "https://julianlopez.site/#headshot",
+        "url": "https://julianlopez.site/julian-lopez-headshot-sml26.webp"
       },
       "worksFor": [
         {
